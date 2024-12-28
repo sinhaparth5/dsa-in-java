@@ -27,6 +27,8 @@ public class ArrayUtil {
         myArray[3] = 40;
         myArray[4] = 50;
         printArray(myArray);
+        System.out.println(myArray.length);
+        System.out.println(myArray[myArray.length - 1]);
     }
 
     public static void main(String[] args) {
